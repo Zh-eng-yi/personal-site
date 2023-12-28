@@ -12,13 +12,11 @@ ul {
 }
 
 li {
-    /* margin: 10px; */
     margin-top: 20px;
 }
 
 section {
     min-height: 100vh;
-    /* scroll-snap-align: start; */
 }
 
 section h1 {
@@ -56,45 +54,27 @@ span {
     margin-right: 40px;
 }
 
-/* #projects {
-    background-color: lightcoral;
-    padding-bottom: 50px;
-} */
-
 #projects {
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
 }
 
-#projects h1 {
-    align-self: flex-start;
-}
-
 .project-container {
+    margin: 40px 40px 80px;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    gap: 1.5em;
 }
-
-/* .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
 
 .project-card {
     background: white;
     width: 300px;
-    flex: 1;
-    align-self: stretch;
     border-radius: 20px;
-    padding-bottom: 40px;
     overflow: auto;
-    margin: 10px;
 }
 
 .project-card h3 {
@@ -104,6 +84,7 @@ span {
 .project-card ul {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .project-card li {
@@ -115,7 +96,6 @@ span {
     margin-bottom: 10px;
     background-size: cover;
     border-radius: 20px 20px 0 0;
-
 }
 
 #ic-image {
@@ -126,10 +106,10 @@ span {
     background-image: url(assets/coconut_jelly.jpg);
 }
 
-.four {
-    background-color: lightyellow;
+#ps-image {
+    background-image: url(assets/my_web.jpg);
 }
 
-.five {
-    background-color: lightgreen;
+#contacts {
+    background-color: lightyellow;
 }
