@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Mono", monospace;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    /* margin: 10px; */
+    margin-top: 20px;
+}
+
+section {
+    min-height: 100vh;
+    /* scroll-snap-align: start; */
+}
+
+section h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+span {
+    color: darkorange
+}
+
+#intro {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro h1 {
+    font-size: 50px;
+}
+
+#work {
+    background-color: lightblue;
+    overflow: auto;
+    padding-bottom: 40px;
+}
+
+.experience {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* #projects {
+    background-color: lightcoral;
+    padding-bottom: 50px;
+} */
+
+#projects {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects h1 {
+    align-self: flex-start;
+}
+
+.project-container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+.project-card {
+    background: white;
+    width: 300px;
+    flex: 1;
+    align-self: stretch;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    overflow: auto;
+    margin: 10px;
+}
+
+.project-card h3 {
+    margin-left: 10px;
+}
+
+.project-card ul {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.project-card li {
+    margin-top: 10px;
+}
+
+.project-image {
+    height: 300px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#ic-image {
+    background-image: url(assets/ibis_code.jpg);
+}
+
+#cj-image {
+    background-image: url(assets/coconut_jelly.jpg);
+}
+
+.four {
+    background-color: lightyellow;
+}
+
+.five {
+    background-color: lightgreen;
+}
