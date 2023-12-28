@@ -99,17 +99,23 @@ span {
 }
 
 #ic-image {
-    background-image: url(assets/ibis_code.jpg);
+    background-image: url(assets/ibis-code.jpg);
 }
 
 #cj-image {
-    background-image: url(assets/coconut_jelly.jpg);
+    background-image: url(assets/coconut-jelly.jpg);
 }
 
 #ps-image {
-    background-image: url(assets/my_web.jpg);
+    background-image: url(assets/my-web.jpg);
 }
 
-#contacts {
-    background-color: lightyellow;
+.contact-icon {
+    width: 30px;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 10px;
+    text-align: center;
 }
